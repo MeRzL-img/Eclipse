@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_and_main {
+    background-image:  url(img/bg_for_header_and_main.png);
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_image {
+    width: 68px;
+   
+    margin-top: 74px;
+    margin-left: 204px;
+}
+
+.navigation {
+    margin-top: 22px;
+    margin-right: 38px;
+    padding-bottom: 29px;
+
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    
+    text-decoration: none;
+}
+
+.navigation:hover {
+    border-bottom: 3px solid #28c8c6;
+}
+
+.navigation_blog {
+    margin-right: 26px;
+}
+
+.nav_in_header {
+    margin-top: 77px;
+    margin-right: 209px;
+
+    display: flex;
+}
+
+.button_in_header {
+    width: 129px;
+    height: 52px;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    border-radius: 5%;
+    border-style: none;
+    border: none;
+
+
+    background-color: #a100ff;
+}
+
+.icon_arrow {
+    width: 16px;
+}
+
+.text_in_button_in_header {
+    margin-right: 20px;
+}
+
+.main_container {
+    margin-top: 192px;
+    margin-left: 209px;
+}
+
+.main_h1 {
+    margin-bottom: 40px;
+
+    font-size: 42px;
+    
+    color: #ffffff;
+}
+
+.text_in_main {
+    margin-bottom: 6px;
+    
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.text_in_main_down {
+    margin-bottom: 30px;
+}
+
+.forms_in_main {
+    padding-bottom: 258px;
+    
+    display: flex;
+}
+
+.form_in_main {
+    width: 282px;
+    height: 60px;
+
+    border-radius: 3px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #fcfcfc;
+}
+
+.input_design_style {
+    margin-left: 25px;
+
+    outline: none;
+    border: none;
+}
+
+.button_for_input_design_style {
+    margin-right: 22px;
+
+    background: #fcfcfc;
+
+    border: none;
+}
+
+.input_email {
+    margin-left: 26px;
+
+    outline: none;
+    border: none;
+}
+
+.button_for_input_email {
+    margin-right: 21px;
+    
+    background: #fcfcfc;
+
+    border: none;
+}
+
+.form_with_email {
+    margin-left: 17px;
+}
