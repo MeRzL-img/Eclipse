@@ -156,3 +156,87 @@ body {
 .form_with_email {
     margin-left: 17px;
 }
+
+.transition_between_main_and_ads_container {
+    display: flex;
+    justify-content: center;
+}
+
+.transition_between_main_and_ads {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 2;
+    
+    position: relative;
+    top: -50px;
+    
+    border-radius: 50%;
+    
+    background-image: url(img/bg_for_ads_container.png);
+}
+
+.ads_container {
+    z-index: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    top: -100px;
+    
+    background-image: url(img/bg_for_ads_container.png);
+}
+
+.h2_in_ads_container {
+    margin-top: 148px;
+    
+    font-size: 28px;
+    color: #333b42;
+}
+
+.text_in_ads_container {
+    font-size: 10px;
+    font-weight: bold;
+    color: #74797e;
+
+}
+
+.text_in_ads_container_up {
+    margin-top: 42px;
+    margin-bottom: 10px;
+}
+
+.iphone_6_png {
+    margin-top: 76px;
+}
+
+.transition_betwiee_ads_container_and_features_of_app_container {
+    display: flex;
+    justify-content: center;
+}
+
+.transition_between_ads_and_features_of_app {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    top: -150px;
+
+    z-index: 3;
+    
+    border-radius: 50%;
+    
+    background: #28c8c6;
+}
