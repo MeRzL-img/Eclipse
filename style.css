@@ -7,16 +7,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header_and_main {
+.header-and-main {
     background-image:  url(img/bg_for_header_and_main.png);
 }
 
-.main_header {
+.header-and-main_header {
     display: flex;
     justify-content: space-between;
 }
 
-.icon_image {
+.header-and-main_header_icon_image {
     width: 68px;
    
     margin-top: 74px;
@@ -43,14 +43,14 @@ body {
     margin-right: 26px;
 }
 
-.nav_in_header {
+.navigation-container_links {
     margin-top: 77px;
     margin-right: 209px;
 
     display: flex;
 }
 
-.button_in_header {
+.navigation-container_form_button {
     width: 129px;
     height: 52px;
 
@@ -71,20 +71,20 @@ body {
     background-color: #a100ff;
 }
 
-.icon_arrow {
+.navigation-container_form_button_image {
     width: 16px;
 }
 
-.text_in_button_in_header {
+.navigation-container_form_button_text {
     margin-right: 20px;
 }
 
-.main_container {
+.header-and-main_main {
     margin-top: 192px;
     margin-left: 209px;
 }
 
-.main_h1 {
+.header-and-main_main_heading-container {
     margin-bottom: 40px;
 
     font-size: 42px;
@@ -92,24 +92,24 @@ body {
     color: #ffffff;
 }
 
-.text_in_main {
+.header-and-main_main_text {
     margin-bottom: 6px;
     
     font-size: 12px;
     color: #ffffff;
 }
 
-.text_in_main_down {
+.header-and-main_main_text_down {
     margin-bottom: 30px;
 }
 
-.forms_in_main {
+.header-and-main_main_forms-container {
     padding-bottom: 258px;
     
     display: flex;
 }
 
-.form_in_main {
+.main_forms-container_form {
     width: 282px;
     height: 60px;
 
